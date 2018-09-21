@@ -1,0 +1,32 @@
+html, body, .wrap {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0 30px;
+  font-family: sans-serif;
+  line-height: 1.5em;
+  color: #3b3b3b;
+  background-color: #efefef;
+}
+
+.wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  font-family: monospace;
+  font-weight: 400;
+}

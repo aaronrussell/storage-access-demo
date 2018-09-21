@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Storage Access Demo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Storage Access Demo</h1>
+
+      <table>
+        <tr>
+          <th>Cookies:</th>
+          <td class="data-cookies"></td>
+        </tr>
+        <tr>
+          <th>Local Storage:</th>
+          <td class="data-local-storage"></td>
+        </tr>
+        <tr>
+          <th>Session Storage:</th>
+          <td class="data-session-storage"></td>
+        </tr>
+      </table>
+
+      <div>
+        <button onclick="app.regenerate()">Regenerate</button>
+        <button onclick="app.requestAccess()">Request Access</button>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html> 
